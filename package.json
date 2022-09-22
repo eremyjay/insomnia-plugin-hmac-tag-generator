@@ -1,0 +1,36 @@
+{
+  "name": "insomnia-plugin-hmac-tag-generator",
+  "version": "1.0.29",
+  "main": "app.js",
+  "description": "An insomnia plugin to generate an HMAC as a template tag.",
+  "author": "Jeremy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eremyjay/insomnia-plugin-hmac-tag-generator/issues"
+  },
+  "homepage": "https://github.com/eremyjay/insomnia-plugin-hmac-tag-generator#readme",
+  "insomnia": {
+    "name": "hmac-tag-generator",
+    "displayName": "HMAC Tag Generator",
+    "description": "An insomnia plugin to generate an HMAC as a template tag.",
+    "images": {
+      "icon": "hmac.gif",
+      "cover": "hmac.gif"
+    },
+    "publisher": {
+      "name": "Jeremy"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eremyjay/insomnia-plugin-hmac-tag-generator.git"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "hmac"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
